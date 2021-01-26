@@ -23,3 +23,25 @@ def find_min_in_nested_arrays(src)
    array_with_min_values
  end
  
+def find_min_in_nested_arrays(src)
+ array_with_min_values = []
+ sub_array_idx = 0
+ 
+ while sub_array_idx < src.length {
+   sub_array = src[sub_array_idx]
+   num_idx = 0
+   minimum_value = sub_array[0]
+   sub_array_idx += 1
+ }
+   
+   while num_idx < sub_array.length do
+     num = sub_array[num_idx]
+     if num < minimum_value do
+       minimum_value = num
+     end
+     num_idx += 1
+   end
+   array_with_min_values.push(minimum_value)
+   array_with_min_values
+ end
+  
