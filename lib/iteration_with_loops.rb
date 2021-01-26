@@ -10,6 +10,7 @@ def find_min_in_nested_arrays(src)
  while sub_array_idx < src.length do
    sub_array = src[sub_array_idx]
    sub_array_idx += 1
+   
    num_idx = 0
    minimum_value = sub_array[0]
    while num_idx < sub_array.length do
@@ -18,8 +19,7 @@ def find_min_in_nested_arrays(src)
        minimum_value = num
      end
      num_idx += 1
-     array_with_min_values.push(minimum_value)
    end
+   array_with_min_values.push(minimum_value)
    array_with_min_values
- end
  end
