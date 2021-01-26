@@ -18,8 +18,8 @@ def find_min_in_nested_arrays(src)
        minimum_value = num
      end
      num_idx += 1
-     array_with_min_values.push(minimum_value)
    end
+   array_with_min_values.push(minimum_value)
    array_with_min_values
  end
  
