@@ -12,7 +12,6 @@
 # push value of min_value(sub_array) to array_with_min_values
 # return array_with_min_values
 
-
 def min_value(array)
   idx = 0
   min_num = array[0]
@@ -38,4 +37,3 @@ def find_min_in_nested_arrays(src)
  array_with_min_values
 end
  
-  
