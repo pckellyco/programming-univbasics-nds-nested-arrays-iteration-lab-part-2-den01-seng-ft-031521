@@ -3,6 +3,20 @@
 # create a variable = min to store the min value
 # compare all nums/ele in sub-array to min
 # push min into new array
+# use helper function to find min value in sub-array
+
+def min_value(array)
+  idx = 0
+  min_num = array[0]
+  while idx < array.length do
+    num = array[idx]
+    if num < min_num
+      min_num = num
+    end
+    idx += 1
+  end
+  min_num
+end
 
 def find_min_in_nested_arrays(src)
  array_with_min_values = []
