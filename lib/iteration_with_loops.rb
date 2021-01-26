@@ -20,6 +20,5 @@ def find_min_in_nested_arrays(src)
      num_idx += 1
      array_with_min_values.push(minimum_value)
    end
- end
    array_with_min_values
-end
+ end
